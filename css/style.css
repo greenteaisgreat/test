@@ -8,11 +8,26 @@ html {
   box-sizing: inherit;
 }
 
+.middle {
+  position: absolute;
+  left: 45vw;
+  margin-top: 10px;
+}
+
 body {
   margin: 0;
   background-color: cornflowerblue;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Merriweather', serif;
+}
+
+table, td {
+  border: 1px solid #333;
+}
+
+thead {
+  background-color: black;
+  color: azure;
 }
 
 h1 {
@@ -21,11 +36,11 @@ h1 {
 }
 
 h2 {
-  font-family: 'Merriweather', serif;
+  font-family: 'Monserrat', sans-serif;
 }
 
 h3 {
-  font-family: 'Merriweather', serif;
+  font-family: 'Monserrat', sans-serif;
 }
 
 .top {
